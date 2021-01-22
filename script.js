@@ -13,3 +13,19 @@
 Letters = {
 
 }
+
+// 7 random items from collection of letters.
+
+
+// scrabble takes 5 dicts as ref find free dict api
+
+// Create players
+
+// create board
+
+// create play again
+
+// create score
+
+
+// dictionary api to check words
