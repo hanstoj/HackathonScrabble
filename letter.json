@@ -1,145 +1,127 @@
-"Peices":[
-    F-2, G-3, H-2, I-9, J-1, K-1, L-4, M-2, N-6, O-8, P-2, Q-1, R-6, S-4
+{ "cards" :[
+    {"letter":"A", "points": 1},
+    {"letter":"A", "points": 1},
+    {"letter":"A", "points": 1},
+    {"letter":"A", "points": 1},
+    {"letter":"A", "points": 1},
+    {"letter":"A", "points": 1},
+    {"letter":"A", "points": 1},
+    {"letter":"A", "points": 1},
+    {"letter":"A", "points": 1},
+    {"letter":"A", "points": 1},
 
-    // (1 point)-A, E, I, O, U, L, N, S, T, R
-// (2 points)-D, G
-// (3 points)-B, C, M, P
-// (4 points)-F, H, V, W, Y
-// (5 points)-K
-// (8 points)- J, X
-// (10 points)-Q, Z
-    // 9 A's
-    {"letter":"A", "points": 1, "vowel": true}
-    // {"letter":"A", "points": 1, "vowel": true}
-    // {"letter":"A", "points": 1, "vowel": true}
-    // {"letter":"A", "points": 1, "vowel": true}
-    // {"letter":"A", "points": 1, "vowel": true}
-    // {"letter":"A", "points": 1, "vowel": true}
-    // {"letter":"A", "points": 1, "vowel": true}
-    // {"letter":"A", "points": 1, "vowel": true}
-    // {"letter":"A", "points": 1, "vowel": true}
+    {"letter":"B", "points": 3},
+    {"letter":"B", "points": 3},
 
-    // 2 B's
-    {"letter":"B", "points": 3, "quantity": 2}
-    // {"letter":"B", "points": 3, "vowel": true}
-    // 2 C's
-    {"letter":"C", "points": 3}
-    {"letter":"C", "points": 3}
-    // 4 d's
-    {"letter":"D", "points": 3}
-    {"letter":"D", "points": 3}
-    {"letter":"D", "points": 3}
-    {"letter":"D", "points": 3}
-    // E 12
-    {"letter":"E", "points": 1}
-    {"letter":"E", "points": 1}
-    {"letter":"E", "points": 1}
-    {"letter":"E", "points": 1}
-    {"letter":"E", "points": 1}
-    {"letter":"E", "points": 1}
-    {"letter":"E", "points": 1}
-    {"letter":"E", "points": 1}
-    {"letter":"E", "points": 1}
-    {"letter":"E", "points": 1}
-    {"letter":"E", "points": 1}
-    {"letter":"E", "points": 1}
-    // F 2
-    {"letter":"F", "points": 4}
-    {"letter":"F", "points": 4}
-    // G-3,
-    {"letter":"G", "points": 2}
-    {"letter":"G", "points": 2}
-    {"letter":"G", "points": 2}
-    // H-2,
-    {"letter":"H", "points": 4}
-    {"letter":"H", "points": 4}
-    //  I-9,
-    {"letter":"I", "points": 1}
-    {"letter":"I", "points": 1}
-    {"letter":"I", "points": 1}
-    {"letter":"I", "points": 1}
-    {"letter":"I", "points": 1}
-    {"letter":"I", "points": 1}
-    {"letter":"I", "points": 1}
-    {"letter":"I", "points": 1}
-    {"letter":"I", "points": 1}
-    //   J-1,
-    {"letter":"J", "points": 8}
-    //   K-1,
-    {"letter":"K", "points": 5}
-    //   L-4,
-    {"letter":"L", "points": 1}
-    {"letter":"L", "points": 1}
-    {"letter":"L", "points": 1}
-    {"letter":"L", "points": 1}
-    //    M-2,
-    {"letter":"M", "points": 3}
-    {"letter":"M", "points": 3}
-    //     N-6,
-    {"letter":"N", "points": 1}
-    {"letter":"N", "points": 1}
-    {"letter":"N", "points": 1}
-    {"letter":"N", "points": 1}
-    {"letter":"N", "points": 1}
-    {"letter":"N", "points": 1}
-    //      O-8,
-    {"letter":"O", "points": 1}
-    {"letter":"O", "points": 1}
-    {"letter":"O", "points": 1}
-    {"letter":"O", "points": 1}
-    {"letter":"O", "points": 1}
-    {"letter":"O", "points": 1}
-    {"letter":"O", "points": 1}
-    {"letter":"O", "points": 1}
-    //       P-2,
-    {"letter":"P", "points": 3}
-    {"letter":"P", "points": 3}
-    //        Q-1,
-    {"letter":"Q", "points": 10}
-    //         R-6,
-    {"letter":"R", "points": 1}
-    {"letter":"R", "points": 1}
-    {"letter":"R", "points": 1}
-    {"letter":"R", "points": 1}
-    {"letter":"R", "points": 1}
-    {"letter":"R", "points": 1}
-    //          S-4
-    {"letter":"S", "points": 1}
-    {"letter":"S", "points": 1}
-    {"letter":"S", "points": 1}
-    {"letter":"S", "points": 1}
-    // T-6,
-    {"letter":"T", "points": 1}
-    {"letter":"T", "points": 1}
-    {"letter":"T", "points": 1}
-    {"letter":"T", "points": 1}
-    {"letter":"T", "points": 1}
-    {"letter":"T", "points": 1}
+    {"letter":"C", "points": 3},
+    {"letter":"C", "points": 3},
 
-    //  U-4,
-    {"letter":"U", "points": 1}
-    {"letter":"U", "points": 1}
-    {"letter":"U", "points": 1}
-    {"letter":"U", "points": 1}
-    //   V-2,
-    {"letter":"V", "points": 4}
-    {"letter":"V", "points": 4}
-    //   W-2
-    {"letter":"W", "points": 4}
-    {"letter":"W", "points": 4}
-    //   , X-1,
-    {"letter":"X", "points": 8}
+    {"letter":"D", "points": 3},
+    {"letter":"D", "points": 3},
+    {"letter":"D", "points": 3},
+    {"letter":"D", "points": 3},
 
-    //    Y-2,
-    {"letter":"Y", "points": 4}
-    //    Z-1
+
+    {"letter":"E", "points": 1},
+    {"letter":"E", "points": 1},
+    {"letter":"E", "points": 1},
+    {"letter":"E", "points": 1},
+    {"letter":"E", "points": 1},
+    {"letter":"E", "points": 1},
+    {"letter":"E", "points": 1},
+    {"letter":"E", "points": 1},
+    {"letter":"E", "points": 1},
+    {"letter":"E", "points": 1},
+    {"letter":"E", "points": 1},
+    {"letter":"E", "points": 1},
+
+    {"letter":"F", "points": 4},
+    {"letter":"F", "points": 4},
+
+    {"letter":"G", "points": 2},
+    {"letter":"G", "points": 2},
+    {"letter":"G", "points": 2},
+
+    {"letter":"H", "points": 4},
+    {"letter":"H", "points": 4},
+
+    {"letter":"I", "points": 1},
+    {"letter":"I", "points": 1},
+    {"letter":"I", "points": 1},
+    {"letter":"I", "points": 1},
+    {"letter":"I", "points": 1},
+    {"letter":"I", "points": 1},
+    {"letter":"I", "points": 1},
+    {"letter":"I", "points": 1},
+    {"letter":"I", "points": 1},
+
+    {"letter":"J", "points": 8},
+
+    {"letter":"K", "points": 5},
+
+    {"letter":"L", "points": 1},
+    {"letter":"L", "points": 1},
+    {"letter":"L", "points": 1},
+    {"letter":"L", "points": 1},
+
+    {"letter":"M", "points": 3},
+    {"letter":"M", "points": 3},
+
+    {"letter":"N", "points": 1},
+    {"letter":"N", "points": 1},
+    {"letter":"N", "points": 1},
+    {"letter":"N", "points": 1},
+    {"letter":"N", "points": 1},
+    {"letter":"N", "points": 1},
+
+    {"letter":"O", "points": 1},
+    {"letter":"O", "points": 1},
+    {"letter":"O", "points": 1},
+    {"letter":"O", "points": 1},
+    {"letter":"O", "points": 1},
+    {"letter":"O", "points": 1},
+    {"letter":"O", "points": 1},
+    {"letter":"O", "points": 1},
+
+    {"letter":"P", "points": 3},
+    {"letter":"P", "points": 3},
+
+    {"letter":"Q", "points": 10},
+
+    {"letter":"R", "points": 1},
+    {"letter":"R", "points": 1},
+    {"letter":"R", "points": 1},
+    {"letter":"R", "points": 1},
+    {"letter":"R", "points": 1},
+    {"letter":"R", "points": 1},
+
+    {"letter":"S", "points": 1},
+    {"letter":"S", "points": 1},
+    {"letter":"S", "points": 1},
+    {"letter":"S", "points": 1},
+
+    {"letter":"T", "points": 1},
+    {"letter":"T", "points": 1},
+    {"letter":"T", "points": 1},
+    {"letter":"T", "points": 1},
+    {"letter":"T", "points": 1},
+    {"letter":"T", "points": 1},
+
+    {"letter":"U", "points": 1},
+    {"letter":"U", "points": 1},
+    {"letter":"U", "points": 1},
+    {"letter":"U", "points": 1},
+
+    {"letter":"V", "points": 4},
+    {"letter":"V", "points": 4},
+
+    {"letter":"W", "points": 4},
+    {"letter":"W", "points": 4},
+
+    {"letter":"X", "points": 8},
+
+    {"letter":"Y", "points": 4},
+
     {"letter":"Z", "points": 10}
-    // Blanks-2.
-    // beyond MVP
-    // {"letter":"T", "points": 1}
 ]
-
-
-]
-
 }
